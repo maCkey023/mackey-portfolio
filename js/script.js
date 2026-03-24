@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- 1. Dynamic Typing Effect ---
+   // --- 1. Dynamic Typing Effect ---
     const texts = [
-        "MERN Stack Apps",
-        "Python Backend Systems",
-        "RAG AI Assistants",
-        "Scalable Architectures"
+        "Python Backend Systems", 
+        "Enterprise RAG Applications", 
+        "Odoo ERP Solutions", 
+        "FastAPI Microservices"
     ];
     let count = 0;
     let index = 0;
