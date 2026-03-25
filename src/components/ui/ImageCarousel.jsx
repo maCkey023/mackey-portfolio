@@ -7,7 +7,7 @@ const generateImages = () => {
   for (let i = 21; i >= 1; i--) {
     // Assuming Vite handles the public folder strictly or the assets exist in the public path.
     // If they are in `public/assets/images`, this path will resolve correctly.
-    images.push(`/assets/images/U-SPetrol${i}.jpg`); 
+    images.push(`/images/U-SPetrol${i}.jpg`); 
   }
   return images;
 };

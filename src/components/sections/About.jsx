@@ -24,7 +24,7 @@ const About = () => {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
               <img 
-                src="/assets/images/photo_mackey6.webp" 
+                src="/images/photo_mackey6.webp" 
                 alt="Mackey Abdul Raheem" 
                 loading="lazy"
                 className="relative rounded-2xl object-cover w-[300px] h-[350px] md:w-[350px] md:h-[400px] shadow-[0_0_15px_rgba(6,182,212,0.15)] grayscale-[20%] hover:grayscale-0 transition-all duration-500"

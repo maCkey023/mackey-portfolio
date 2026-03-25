@@ -36,7 +36,7 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-4 py-1.5 rounded-md hover:bg-primary hover:text-background transition-colors font-semibold text-sm uppercase tracking-wider">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-4 py-1.5 rounded-md hover:bg-primary hover:text-background transition-colors font-semibold text-sm uppercase tracking-wider">
             Resume
           </a>
         </nav>
@@ -55,7 +55,7 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-8 py-3 rounded-md font-semibold mt-4">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-8 py-3 rounded-md font-semibold mt-4">
             Resume
           </a>
         </div>

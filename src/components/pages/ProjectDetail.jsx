@@ -50,7 +50,7 @@ const projectsData = {
     headerMedia: (
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-[0_0_40px_rgba(6,182,212,0.15)] border border-zinc-800 mb-16 relative">
         <img 
-          src="/assets/us-petrol-schema.png" 
+          src="/images/us-petrol-schema.png" 
           alt="System Architecture Diagram" 
           className="w-full h-auto object-cover min-h-[300px] bg-zinc-900" 
           onError={(e) => {
@@ -59,7 +59,7 @@ const projectsData = {
           }}
         />
         <div className="hidden absolute inset-0 items-center justify-center bg-zinc-900 text-zinc-500 font-medium">
-          Architecture Diagram Image Not Found (/assets/us-petrol-schema.png)
+          Architecture Diagram Image Not Found (/images/us-petrol-schema.png)
         </div>
         <div className="relative z-10 p-4 bg-zinc-900/90 backdrop-blur border-t border-zinc-800 text-center text-sm text-zinc-400">
           U.S-Petrol MERN System Architecture Overview

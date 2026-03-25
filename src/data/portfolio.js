@@ -62,7 +62,7 @@ export const portfolioData = {
       tags: ["React 18", "FastAPI", "Pinecone", "SSE"],
       github: "https://github.com/maCkey023/DocuMind-Enterprise",
       demo: "https://github.com/maCkey023/DocuMind-Enterprise", 
-      image: "assets/images/01-landing-page.png" 
+      image: "/images/01-landing-page.png" 
     },
     {
       title: "U.S-Petrol E-Commerce",
@@ -70,7 +70,7 @@ export const portfolioData = {
       tags: ["MongoDB", "Express", "React", "Node.js"],
       github: "https://github.com/maCkey023/U.S-Petrol",
       demo: "https://github.com/maCkey023/U.S-Petrol",
-      image: "assets/images/U-SPetrol21.jpg"
+      image: "/images/U-SPetrol21.jpg"
     }
   ],
   contact: {
