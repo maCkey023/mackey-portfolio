@@ -27,7 +27,7 @@ const projectsData = {
     content: (
       <>
         <p className="text-zinc-300 text-lg leading-relaxed mb-8">
-          StatBot Pro is an advanced, AI-powered Data Analyst application. It allows users to upload datasets and ask questions in plain English, while an autonomous AI agent writes, executes, and analyzes Python code in real-time to generate insights and visualizations natively within the chat UI.
+          StatBot Pro is an autonomous, AI-powered data analyst that transforms plain English queries into executed Python code and interactive visualizations. Engineered with a decoupled React and FastAPI architecture, it leverages Llama-3 to stream real-time reasoning while securely executing generated code within a hardened, unprivileged Docker sandbox.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 text-white border-b border-zinc-800 pb-2 mt-12">The Problem It Solves</h2>

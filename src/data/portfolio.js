@@ -66,15 +66,15 @@ export const portfolioData = {
       ],
       tags: ["React", "FastAPI", "Docker", "Llama-3", "Groq", "SSE"],
       github: "https://github.com/maCkey023/statbot-pro",
-      youtube: "vJlSuDJI4O0"
+      Demo: "https://github.com/maCkey023/statbot-pro"
     },
     {
       title: "DocuMind Enterprise (RAG AI)",
       description: "Engineered the frontend interface for an enterprise-level RAG assistant. Features real-time AI streaming via Server-Sent Events (SSE), FastAPI backend integration, strict zero-hallucination guardrails, and Pinecone vector database management.",
       tags: ["React 18", "FastAPI", "Pinecone", "SSE"],
       github: "https://github.com/maCkey023/DocuMind-Enterprise",
-      demo: "https://github.com/maCkey023/DocuMind-Enterprise", 
-      image: "/images/01-landing-page.png" 
+      demo: "https://github.com/maCkey023/DocuMind-Enterprise",
+      image: "/images/01-landing-page.png"
     },
     {
       title: "U.S-Petrol E-Commerce",
