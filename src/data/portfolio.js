@@ -58,15 +58,10 @@ export const portfolioData = {
   projects: [
     {
       title: "StatBot Pro",
-      description: "Autonomous AI Data Analyst utilizing React, FastAPI, Docker, and Llama-3 (Groq).",
-      features: [
-        "Engineered a robust analytics application utilizing a React UI and FastAPI backend to orchestrate an AI agent (Llama-3-70b via Groq) for automated data analysis and visualization.",
-        "Implemented real-time Server-Sent Events (SSE) streams for live thought processing and execution tracking.",
-        "Designed a hardened, unprivileged Docker sandbox (\"Swiss Cheese Defense\") to securely execute LLM-generated Python code, mitigating prompt injection vulnerabilities."
-      ],
+      description: "StatBot Pro is an autonomous, AI-powered data analyst that transforms plain English queries into executed Python code and interactive visualizations. Engineered with a decoupled React and FastAPI architecture, it leverages Llama-3 to stream real-time reasoning while securely executing generated code within a hardened, unprivileged Docker sandbox.",
       tags: ["React", "FastAPI", "Docker", "Llama-3", "Groq", "SSE"],
       github: "https://github.com/maCkey023/statbot-pro",
-      Demo: "https://github.com/maCkey023/statbot-pro"
+      image: "/images/screenshot-chat-ui.png"
     },
     {
       title: "DocuMind Enterprise (RAG AI)",
