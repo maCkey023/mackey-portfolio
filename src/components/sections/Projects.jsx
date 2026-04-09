@@ -30,13 +30,25 @@ const Projects = () => {
                 {/* Image Section */}
                 <div className="w-full lg:w-1/2">
                   <div className="relative group overflow-hidden rounded-xl border border-glass aspect-video">
-                    <img 
-                      src={project.image} 
-                      alt={project.title} 
-                      loading="lazy"
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-background/40 group-hover:bg-transparent transition-colors duration-500"></div>
+                    {project.youtube ? (
+                      <iframe 
+                        className="w-full h-full object-cover" 
+                        src={`https://www.youtube.com/embed/${project.youtube}?rel=0`} 
+                        title={`${project.title} Demo`}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen
+                      ></iframe>
+                    ) : (
+                      <>
+                        <img 
+                          src={project.image} 
+                          alt={project.title} 
+                          loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-background/40 group-hover:bg-transparent transition-colors duration-500"></div>
+                      </>
+                    )}
                   </div>
                 </div>
 
@@ -47,6 +59,13 @@ const Projects = () => {
                     <p className="text-muted leading-relaxed">
                       {project.description}
                     </p>
+                    {project.features && (
+                      <ul className="mt-4 list-disc list-inside text-muted space-y-2">
+                        {project.features.map((feature, i) => (
+                          <li key={i} className="text-sm leading-relaxed">{feature}</li>
+                        ))}
+                      </ul>
+                    )}
                   </Card>
                   
                   <div className="flex flex-wrap gap-3">
@@ -56,7 +75,11 @@ const Projects = () => {
                   </div>
 
                   <div className="flex gap-4 mt-2">
-                    {project.title === 'DocuMind Enterprise (RAG AI)' ? (
+                    {project.title === 'StatBot Pro' ? (
+                      <Link to="/project/statbot-pro" className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium transition-all duration-300 bg-primary/10 text-primary hover:bg-primary/20 hover:shadow-[0_0_20px_rgba(6,182,212,0.3)]">
+                        <PlayCircle size={18} /> Watch Case Study
+                      </Link>
+                    ) : project.title === 'DocuMind Enterprise (RAG AI)' ? (
                       <Link to="/project/documind" className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium transition-all duration-300 bg-primary/10 text-primary hover:bg-primary/20 hover:shadow-[0_0_20px_rgba(6,182,212,0.3)]">
                         <PlayCircle size={18} /> Watch Case Study
                       </Link>
